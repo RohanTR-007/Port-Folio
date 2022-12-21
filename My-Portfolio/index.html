@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rohan Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Rohan" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Rohan">Rohan</h1>
+
+          <p class="title">Web developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:rathnarohantr@gmail.com" class="contact-link">rathnarohantr@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+91009504481" class="contact-link">+91 91009504481</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Bengaluru</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ROCKY-BANG/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            A tech enthusiast looking for opportunities to apply classroom and practical learnings in the real world while also enriching skills for the organization's betterment.
+          </p>
+
+          <p>
+            I hold a hand full experience in express server and node.js alongside completed few mern Currently learning the React framework.
+            <br>
+            <br>
+            I've worked with SQL and NoSQL databases such as MySQL and MongoDB.
+
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  I love doing Web Development and exploring various Technologies.<br><br>
+                  Skills : Node Express MongoDB React<br>
+                  Other Skills : Data Structures and Algorithims , C++, Python
+                </p>
+              </div>
+
+            </li>
+          </ul>
+        </section>
+        
+        <section>
+          <h3 class="h3 service-title">Projects</h3>
+          <li class="service-item">
+
+            <div class="img-box">
+              <img src="./assets/images/blog.png" alt="camera icon" width="400">
+            </div>
+
+            <div class="service-icon-box">
+              <h4 class="h4 service-item-title">Blog</h4>
+
+              <p class="service-item-text">
+                A blog website built with Express server , MongoDb database and React for front-end.
+                <br>
+                • User can add new blogs.
+                <br>
+                • User can update, delete and create the records stored in database using CRUD operations.
+                <br>
+                <a href="https://github.com/ROCKY-BANG/Blog" style="color: white;">&emsp;Link: Github</a>
+              </p>
+            </div>
+
+          </li>
+          <li class="service-item">
+
+            <div class="service-icon-box">
+              <img src="./assets/images/todolist.png" alt="camera icon" width="400">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">To Do List App</h4>
+
+              <p class="service-item-text">
+                 Tech Stack : Express MongoDB and EJS
+                <br>
+                • User can Add the tasks and Delete them.
+                <br>
+                • DataBase fetches the tasks and render them in website. 
+                <br>
+                <a href="https://github.com/ROCKY-BANG/To-Do-List" style="color: white;">&emsp;Link: Github</a>
+              </p>
+            </div>
+
+          </li>
+          <li class="service-item">
+
+            <div class="img-box ">
+              <img src="./assets/images/bt.png" alt="camera icon" width="400">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Budget Buddy</h4>
+
+              <p class="service-item-text">
+                A front-end website to track user expenses.
+                <br>
+                • Well Designed User Interface.
+                <br>
+                • The user expenses are produced in a graph form
+                <br>
+                <a href="https://github.com/ROCKY-BANG/Budget-Tracker" style="color: white;">&emsp;Link: Github</a>
+              </p>
+            </div>
+
+          </li>
+        </section>
+     
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
